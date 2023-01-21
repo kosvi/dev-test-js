@@ -6,4 +6,4 @@ on:
 
 jobs:
   test-and-lint:
-    uses: kosvi/shared-workflows/test_and_lint.yml
+    uses: kosvi/shared-workflows/test_and_lint.yml@main
