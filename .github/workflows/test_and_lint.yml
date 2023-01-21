@@ -1,0 +1,9 @@
+name: Test and lint
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test-and-lint:
+    uses: kosvi/shared-workflows/test_and_lint.yml
